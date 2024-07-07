@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "An advanced v14 example bot for Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aixe",
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "license": "ISC"
+}

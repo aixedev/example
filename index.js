@@ -4,4 +4,6 @@ const client = new Client({ intents: 131071, partials: Object.values(Partials).f
 
 require("./src/handlers/commandHandler.js")(client);
 
-client.login(config.Client.bot_token);
+const config = require("./config.js");
+
+client.login(config.client.bot_token);
